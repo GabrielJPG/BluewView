@@ -1,0 +1,20 @@
+//////////////////////////////////////////
+// BUTTON IN LINE
+.btn-inline{
+    border: none;
+    color: var(--primary-color);
+    font-size: inherit;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform .2s;
+
+    &:hover{
+        color: var(--grey-dark-1);
+        transform: scale(1.05);
+    }
+
+    
+}

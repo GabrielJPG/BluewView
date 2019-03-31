@@ -1,0 +1,101 @@
+.profile{
+    width: 82%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    
+
+    &__photo{
+        width: 15rem; 
+        margin: 0 auto;
+        display: block;
+        border-radius: 800px;
+        border: 4px solid var(--primary-color);
+    }
+
+    &__name{
+        margin: 2rem auto;
+        font-size: 2rem;
+        text-align: center;
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    &__user-stats{
+        display: flex;
+        flex: 0 0 20%;
+        margin: 0 auto;
+    }
+
+    &__trip{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        &--icon{
+            flex: 0 0 40%;
+            fill: var(--primary-color);
+        }
+
+        &--count{
+            font-size: 1.4rem;
+        }
+    }
+//////////////////////////////////////////////////////
+// FORM POST
+    &__form{
+        margin: 2rem auto;
+        background: var(--grey-light-3);
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__story{
+        border: 2px solid var(--grey-light-3);
+        padding: 1rem;
+        flex: 0 0 100%;
+        height: 6rem;
+        resize: none;
+    }
+///////////////////////////////////////////////////////////////////
+// FORM ICONS
+    &__post-opcion{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    &__icon-box{
+        display: flex;
+        width: 40%;
+    }
+
+    &__icon{
+        fill: var(--grey-light-4);
+        margin: 1rem;
+        flex: 0 0 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    &__button-box{
+        margin: .5rem;
+    }
+    &__button{
+        padding: .8rem 1.5rem;
+        border: none;
+        color: #FFF;
+        background-color: var(--primary-color);
+
+        &:hover{
+            background-color: var(--primary-light);
+        }
+        
+    }
+
+
+}

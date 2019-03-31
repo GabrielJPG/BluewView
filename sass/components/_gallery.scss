@@ -1,0 +1,11 @@
+.gallery{
+    display: flex;
+    height: 15rem;
+    overflow: hidden;
+
+    &__photo{
+        width: 100%;
+        display: block;
+        background: cover;
+    }
+}
